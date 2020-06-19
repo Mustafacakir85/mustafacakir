@@ -216,8 +216,8 @@ def main():
         while True:
             fiveline = input('\nDo you want to view first five line for data? Please enter yes or no, \n')
             if fiveline.lower() == 'yes':
-                    print(df[efe:efe+5])
-                    efe +=5
+                    print(df[efe:efe+7])
+                    efe +=7
             elif fiveline.lower() == 'no':
                 break
 
